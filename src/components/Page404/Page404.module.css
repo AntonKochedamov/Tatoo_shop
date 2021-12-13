@@ -1,0 +1,26 @@
+.container {
+    font-family: 'Forum';
+    background: #EEEEEE;
+    display: flex;
+
+}
+
+.container img {
+    height: 585px;
+}
+
+.content__wrapper {
+    margin: 160px 0 0 185px;
+}
+
+.title {
+    font-size: 75px;
+    line-height: 75px;
+    color: #BB8C5F;
+}
+
+.text {
+    font-size: 25px;
+    line-height: 35px;
+    color: #3E424B;
+}

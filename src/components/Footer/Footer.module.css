@@ -1,0 +1,92 @@
+footer {
+    background: #050402;
+    height: 100%;
+}
+
+.footer__wrapper {
+    padding: 50px 110px;
+    display: flex;
+}
+
+.footer__info {
+    display: flex;
+    padding-right: 106px;
+    border-right: 1px solid #524336;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo img {
+    width: 166px;
+}
+
+.logo span {
+    margin-top: 52px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FAF6F2;
+}
+
+.bonus,
+.org_info {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #E9ECF1;
+    margin-left: 71px;
+}
+
+.contacts {
+    margin-left: 107px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.phone_number {
+    margin-left: 15px;
+    font-family: 'Jost';
+    font-size: 20px;
+    line-height: 30px;
+    color: #FAF6F2;
+}
+
+.messengers {
+    margin-left: 25px;
+}
+
+.messengers img {
+    margin-right: 12px;
+}
+
+.info_work {
+    font-family: 'Jost';
+    font-size: 17px;
+    line-height: 25px;
+    color: #636B78;
+    margin-top: 17px;
+    display: inline-block;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.mail_text {
+    font-family: 'Jost';
+    font-size: 20px;
+    line-height: 30px;
+    color: #FAF6F2;
+    margin-left: 15px;
+
+}

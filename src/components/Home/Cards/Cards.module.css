@@ -1,0 +1,38 @@
+.cards__container {
+    background-color: #EEEEEE;
+    height: 100%;
+    font-family: 'Jost';
+}
+
+.cards__wrapper {
+    width: 1216px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.categories {
+    display: flex;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    color: #3E424B;
+    justify-content: space-between;
+}
+
+.categories>li:not(:last-child) {
+    margin-right: 60px;
+}
+
+.cards__content {
+    margin-top: 45px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}

@@ -1,0 +1,21 @@
+.main__wrapper{
+
+}
+.path {
+    display: inline-block;
+    margin-top: 50px;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    color: #636B78;
+}
+
+.catalog_title {
+    margin-top: 30px;
+    font-family: Forum;
+    font-size: 60px;
+    line-height: 60px;
+    color: #3E424B;
+}

@@ -1,0 +1,27 @@
+.main__wrapper {
+    background: no-repeat center/cover url(../../assets/images/mainBack.jpg);
+    color: #FAF6F2;
+}
+
+.prewie {
+    min-height: 80vh;
+    width: 1216px;
+    margin: 0 auto;
+}
+
+.prewie h1 {
+    padding-top: 110px;
+    width: 595px;
+    font-size: 75px;
+    line-height: 75px;
+    color: #BB8C5F;
+    font-family: 'Forum';
+}
+
+.prewie h3 {
+    padding-top: 30px;
+    font-size: 25px;
+    line-height: 35px;
+    width: 431px;
+}
+

@@ -1,0 +1,59 @@
+.prewie__button_container {
+    position: relative;
+    display: inline-block;
+}
+
+.prewie__button_container::before {
+    position: absolute;
+    content: '';
+    bottom: 15px;
+    height: 15px;
+    width: 15px;
+    border: 20px solid transparent;
+    border-right: 20px solid #BB8C5F;
+    left: -39px;
+}
+
+.prewie__button_container::after {
+    position: absolute;
+    content: '';
+    bottom: 15px;
+    height: 15px;
+    width: 15px;
+    border: 20px solid transparent;
+    border-right: 20px solid #524336;
+    left: -36.5px;
+}
+
+.prewie__button {
+    margin-top: 60px;
+    background-color: #524336;
+    border: 2px solid #BB8C5F;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FAF6F2;
+    padding: 20px 60px;
+}
+
+.prewie__button::before {
+    position: absolute;
+    content: '';
+    bottom: 15px;
+    height: 15px;
+    width: 15px;
+    border: 20px solid transparent;
+    border-left: 20px solid #BB8C5F;
+    right: -39.5px;
+}
+
+.prewie__button::after {
+    position: absolute;
+    content: '';
+    bottom: 15px;
+    height: 15px;
+    width: 15px;
+    border: 20px solid transparent;
+    border-left: 20px solid #524336;
+    right: -37px;
+}
